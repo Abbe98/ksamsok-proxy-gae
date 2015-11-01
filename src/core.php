@@ -1,5 +1,4 @@
 <?php
-// SOCH endpoint without trailing slash
 $sochEndpoint = 'http://kulturarvsdata.se/';
 
 function sochQueryRequest($queryString, $sochEndpoint) {
@@ -11,7 +10,6 @@ function sochQueryRequest($queryString, $sochEndpoint) {
   }
 
   header('Access-Control-Allow-Origin: *');
-
 
   echo $content;
 }
