@@ -11,3 +11,6 @@ handlers:
 
 - url: /.*
   script: index.php
+
+- url: /stylesheet/
+  static_dir: stylesheet
