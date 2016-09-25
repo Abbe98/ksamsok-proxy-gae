@@ -7,12 +7,12 @@ This proxy delivers all of K-Samsök response HTTP headers and in addition to th
 
 ##Setup
 
-Setting up this proxy on Google App Engine requires the Google App Engine SKD for the PHP runtime.
+Setting up this proxy on Google App Engine requires the Google App Engine SDK for the PHP runtime.
 
  - Clone this repo.
  - Create a new project at the [Google Developer Console](console.developers.google.com/) named `ksamsok-proxy-gae`.
  - Note the id your project is given.
- - Launch Google App Engine SKD and under `file` you can add your cloned repo as an existing application.
+ - Launch Google App Engine SDK and under `file` you can add your cloned repo as an existing application.
  - Select the app in the list and click the deploy button.
 
 The proxy should now serve from `application-id.appspot.com`.
